@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  latex:
+    image: tianon/latex
+    volumes:
+      - .:/tmp
+    working_dir: /tmp
+    command:
+      - /bin/bash
+      - -c
+      - xelatex resume.tex
