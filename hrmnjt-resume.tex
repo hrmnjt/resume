@@ -1,0 +1,183 @@
+% Copyright 2020 Harmanjeet Singh Nagi
+
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+
+%   http://www.apache.org/licenses/LICENSE-2.0
+
+% Unless required by applicable law or agreed to in writing, software
+% distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+% CV starts here
+
+
+\begin{document}
+
+% HEADING
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.hrmnjt.dev/}{\Large Harmanjeet Singh Nagi}} & Email : \href{mailto:hrmnjt@hrmn.in}{hrmnjt@hrmn.in}\\
+  \href{https://www.hrmnjt.dev/}{https://www.hrmnjt.dev/} & Mobile : +971-50-373-7005 \\
+\end{tabular*}
+
+% EXPERIENCE
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Majid Al Futtaim}{Dubai, UAE}
+      {Data Engineer}{Jun 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Batch Data Pipelines}
+          {Inhouse data framework based on open source projects (Airflow and Argo) to orchestrate and run batch data pipelines for ingestion, warehousing and analytics}
+        \resumeItem{Data Modelling and Warehousing}
+          {Setup, schema design and scheduling of Vertica (analytics database). Wrote data pipelines for crucial business operations - loyalty program, retail and fashion analytics, and movie recommendations}
+        \resumeItem{ACLs for Postgres and Vertica}
+          {Conceptualized and built internal access control application for data goverance adherence on Vertica and Postgres DB. Added AD authentication and roles were defined as business glossary}
+        \resumeItem{Schedule Monitoring and Data Observability}
+          {Setup and maintained Grafana based monitoring dashboards for data, infrastructure and schedule monitoring. Also, enabled alerts and messaging for failures and deployments}
+        \resumeItem{Golden Customer Record}
+          {Create unique customer records from 9 data sources for 35 customer attributes using Informatica MDM. Project enabled cross business marketing and was upstream source for group-wide loyalty program}
+        \resumeItem{Infrastructure migration and optimization}
+          {Migrated data lake from Hadoop to S3. Improved performance for Vertica by migrating and fine-tuning cluster. Migrated legacy ETL tasks to Data Pipelines for improved stability. Resulted in overall reduction 40\% yearly operational budget}
+        \resumeItem{Data Operations}
+          {Responsible to translate business data requirements into technical stories. Enable BI, reporting and analytics use cases based purpose based data-marts}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Mu Sigma Inc}{Bangalore, India}
+      {Decision Scientist, Apprentince Leader}{May 2015 - Jun 2019}
+      \resumeItemListStart
+        \resumeItem{Stabilizing Legacy ETL Framework}
+          {Built configuration based framework for Informatica BDM to run legacy ETL tasks. Enabled 140+ data operations from 15 varied data sources to enable BI and analytics use cases}
+        \resumeItem{Infrastructure and backend for Employee Application}
+          {Designed and build REST API backend (and AWS infrastructure) with sub-second response time for employee application powering 45K users}
+        \resumeItem{Infrastructure for Retail Pricing and Inventory Application}
+          {Infrastructure setup and On-premise continuous integration and deployment approach for an application involving pricing and range simulations}
+        \resumeItem{Optimize Recommender for Airline Upselling}
+          {30\% lift in yearly revenue by reverse engineering performance of real-time recommendations (based on Oracle RTD) used for airlines check-in process}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Autoninja}{Bangalore, India}
+      {TechOps Engineer (Intern)}{Jan 2015 - Jun 2015}
+      \resumeItemListStart
+        \resumeItem{TechOps Intern}
+          {Add details here}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PES Institute of Technology}{Bangalore, India}
+      {Bachelor of Engineering Electrical and Electronics;  GPA: 8.56 (of 10)}{Jul 2011 -- June 2015}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{QuantSoftware Toolkit}
+      {Open source python library for financial data analysis and machine learning for finance.}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+    \resumeSubItem{Recommendation System}
+      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+    \resumeSubItem{Mac Setup}
+      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
