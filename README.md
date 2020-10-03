@@ -2,6 +2,7 @@
 # LaTeX based Resumé
 
 A simple one-column resume made in LaTex with Sans Serif font family.
+Inspiration - [Sourabh Bajaj's Resume](https://github.com/sb2nov/resume)
 
 ## Usage
 
