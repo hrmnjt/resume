@@ -50,7 +50,7 @@ rm -rf hrmnjt-resume.aux hrmnjt-resume.log hrmnjt-resume.out
 
 ## Preview
 
-![preview](./hrmnjt-resume.svg)
+![preview](./hrmnjt-resume.jpg)
 
 # License
 
