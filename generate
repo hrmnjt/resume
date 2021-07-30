@@ -1,0 +1,1 @@
+docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex

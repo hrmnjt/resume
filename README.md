@@ -45,7 +45,6 @@ docker build -t latex .
 Creating the PDF output
 ```bash
 docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
-rm -rf hrmnjt-resume.aux hrmnjt-resume.log hrmnjt-resume.out
 ```
 
 ## Preview
