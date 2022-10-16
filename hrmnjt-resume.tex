@@ -94,7 +94,8 @@
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.hrmnjt.dev/}{\Large Harmanjeet Singh Nagi}} & Email : \href{mailto:hrmnjt@hrmn.in}{hrmnjt@hrmn.in}\\
-  \href{https://www.hrmnjt.dev/}{https://www.hrmnjt.dev/} & Mobile : +971-50-373-7005 \\
+  \href{https://www.hrmnjt.dev/}{https://www.hrmnjt.dev/} \\
+  & Mobile : +971-50-373-7005 \\
   & Github : \href{https://www.github.com/hrmnjt}{hrmnjt} \\
   & LinkedIn : \href{https://www.linkedin.com/in/hrmnjt}{hrmnjt} \\
 \end{tabular*}
@@ -107,20 +108,34 @@
 
     \resumeSubheading
       {Majid Al Futtaim}{Dubai, UAE}
-      {Lead Data Engineer}{Jun 2019 - Present}
+      {Data Engineer, Lead Data Engineer, Engineering Manager}{Jun 2019 - Present}
+      % Notes to explain this role
+
+      % - Joined MAF as a Senior Data Engineer and at the time MAF Holding was starting to centralize the data infrastructure they had. To understand this better, I should mention that MAF is a AED 18 Bn company operating in 18 countries. It has assets worth AED 63 Bn across Properties, Retail, Leisure & Entertainment and Lifestyle business. Because each OpCo was responsible for their own P&L, each business had different maturity with data and analytics. Holding's role (where I was hired) was to act like a chief architect and improve this maturity for all business.
+
+      % - Started with removing legacy infrastructure. Migrated from HDFS to S3; as nothing else from Hadoop stack was being used. Improved Vertica datawarehouse by fine-tuning netperf, ioperf, sysperf and data within: projections, aggregations. Migrated legacy ETL from Informatica to Airflow. Improved data observability i.e. monitoring and notifications for data. Maintained and built knowledge about Customer Master Data called GCR.
+
+      % - Created a framework with Airflow, Spark and Confluent to orchestrate data pipelines for ingestion, warehousing and analytics. Create loyalty data warehouse i.e. SHARE. Created a ACL for managing access to Vertica. Created integrations for MarTech (Braze Integration, Sendgrid integration, SAP c4c integration, etc.). Created a audience segmentation tool which can compete with Salesforce Marketing cloud but was much faster, cleaner and purpose built for MAF.
+      
+      % - XSight had started as a business inside MAF Future Solution and we had conceptualized couple of tools - Dataverse and XConnect. 
+      % TODO: Explain XConnect.
       \resumeItemListStart
-        \resumeItem{Data Pipelines}
-          {Inhouse data framework based on open source projects (Airflow and Argo) to orchestrate and run batch and realtime data pipelines for ingestion, warehousing and analytics using Apache Spark and Confluent Platform}
-        \resumeItem{Data Modelling and Warehousing}
-          {Setup, schema design and scheduling of Vertica (analytics database). Wrote data pipelines and integrations data warehouses and marts - loyalty program, retail and fashion analytics, and movie recommendations}
-        \resumeItem{ACLs for Postgres and Vertica}
-          {Conceptualized and built internal access control application for data goverance adherence on Vertica and Postgres DB. Added AD authentication and roles were defined as business glossary}
-        \resumeItem{Schedule Monitoring and Data Observability}
-          {Led the team to setup Prometheus and Grafana based monitoring dashboards for data, infrastructure and schedule monitoring. Also, enabled alerts and messaging for failures and deployments}
-        \resumeItem{Golden Customer Record}
-          {Create unique customer records from 9 data sources for 35 customer attributes using Informatica MDM. Project enabled cross business marketing and was upstream source for group-wide loyalty program}
-        \resumeItem{Infrastructure migration and optimization}
-          {Migrated data lake from Hadoop to S3. Improved performance for Vertica by migrating and fine-tuning EE cluster. Migrated legacy ETL tasks to Data Pipelines for improved stability. Resulted in overall reduction 40\% yearly operational budget}
+        \resumeItem{Audience Segmentation for Marketing}
+          {Led a team of 9 to create an audience segmentation tool (faster, cleaner and purpose built) similar to Salesforce Marketing Cloud. It worked on a customer base of 24M and 1000+ attributes to craft a micro-segmented audience in less than 10s.}
+        \resumeItem{GRID - MAF's Central Data Infrastructure}
+          {Created inhouse data framework (based on Airflow, Argo, Spark, Confluent) to orchestrate data pipelines for ingestion, warehousing, observability and analytics. Scaled a team of 5 to 30 data engineers and operators to maintain, run and improve centralized data infrastructure for global MAF businesses. Data Security and Governance were key tenets on which team worked.}
+        % \resumeItem{Data Pipelines}
+        %   {Inhouse data framework based on open source projects (Airflow and Argo) to orchestrate and run batch and realtime data pipelines for ingestion, warehousing and analytics using Apache Spark and Confluent Platform}
+        % \resumeItem{Data Modelling and Warehousing}
+        %   {Setup, schema design and scheduling of Vertica (analytics database). Wrote data pipelines and integrations data warehouses and marts - loyalty program, retail and fashion analytics, and movie recommendations}
+        % \resumeItem{ACLs for Postgres and Vertica}
+        %   {Conceptualized and built internal access control application for data goverance adherence on Vertica and Postgres DB. Added AD authentication and roles were defined as business glossary}
+        % \resumeItem{Schedule Monitoring and Data Observability}
+        %   {Led the team to setup Prometheus and Grafana based monitoring dashboards for data, infrastructure and schedule monitoring. Also, enabled alerts and messaging for failures and deployments}
+        % \resumeItem{Golden Customer Record}
+        %   {Create unique customer records from 9 data sources for 35 customer attributes using Informatica MDM. Project enabled cross business marketing and was upstream source for group-wide loyalty program}
+        % \resumeItem{Infrastructure migration and optimization}
+        %   {Migrated data lake from Hadoop to S3. Improved performance for Vertica by migrating and fine-tuning EE cluster. Migrated legacy ETL tasks to Data Pipelines for improved stability. Resulted in overall reduction 40\% yearly operational budget}
       \resumeItemListEnd
 
       \resumeSubheading
