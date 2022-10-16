@@ -1,1 +1,1 @@
-docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
+podman run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
