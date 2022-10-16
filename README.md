@@ -5,8 +5,6 @@ A simple one-column resume made in LaTex with Sans Serif font family.
 
 ## Motivation
 
-[Link to post I wrote](https://www.hrmnjt.dev/p/resume-as-code)
-
 I've dreaded the concept of resume in the past as it seems borderline (strong
 word:) narcissistic. You need to go in lengths to explain all you have
 ever worked on. I take pride in what I’ve worked on but don’t like the fact
@@ -39,12 +37,12 @@ most natural approach for editing and improving them over time.
 Building the image (one time)
 
 ```bash
-docker build -t latex .
+podman build -t latex .
 ```
 
 Creating the PDF output
 ```bash
-docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
+podman run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
 ```
 
 ## Preview
@@ -53,10 +51,10 @@ docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
 
 # License
 
-Format is Apache Licensed. Data is owned by Harmanjeet Singh Nagi. Completely.
+Format is Apache Licensed. Data is owned by Harmanjeet Singh Nagi, completely.
 
 ```
-Copyright 2020 Harmanjeet Singh Nagi
+Copyright 2020, 2021, 2022 Harmanjeet Singh Nagi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
