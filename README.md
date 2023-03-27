@@ -1,62 +1,27 @@
+# Trying out typst
 
-# LaTeX based Resumé
+## Installation
 
-A simple one-column resume made in LaTex with Sans Serif font family.
+Get latest release from https://github.com/typst/typst/releases
 
-## Motivation
+curl -LJO https://github.com/typst/typst/releases/download/v23-03-21-2/typst-x86_64-apple-darwin.tar.gz
 
-[Link to post I wrote](https://www.hrmnjt.dev/p/resume-as-code)
+tar -xvzf typst-x86_64-apple-darwin.tar.gz
 
-I've dreaded the concept of resume in the past as it seems borderline (strong
-word:) narcissistic. You need to go in lengths to explain all you have
-ever worked on. I take pride in what I’ve worked on but don’t like the fact
-that I need to explain it to my employer. I wonder if there were better ways to
-exhibit this; easier if there was more open source culture.
+mv typst-x86_64-apple-darwin/typst .
 
-Nevertheless, In order to make resume fun for me, and to check one of the
-items in my list, I decided to make my resume using LaTeX (pronounced: LAH-tek)
-
-### Why Latex?
-
-In past, I'd wonder why all journals and papers published always followed
-similar pattern and I thought to myself that it would be a criteria to write
-the journal/paper in that particular format. Researching deeper, I realized
-the reason it all looks similar was because in academics, people use a
-different word processing engine - one which came with its own set of
-awesome features.
-
-- Macros and microtype
-- Programmatic approach on visual formatting
-- Pixel perfect typography for mathematics (haven't used it yet, but excited)
-- Huge community (mostly academics, nerds and geeks)
-
-But the most understated reason that I felt was codifying the **document and
-version controlling**. Publishing documents as Git repositories seem like the
-most natural approach for editing and improving them over time.
+rm -rf typst-x86_64-apple-darwin*
 
 ## Usage
 
-Building the image (one time)
+typst resume.typ
 
-```bash
-docker build -t latex .
-```
-
-Creating the PDF output
-```bash
-docker run --rm -i -v "$PWD":/data latex pdflatex hrmnjt-resume.tex
-```
-
-## Preview
-
-![preview](./hrmnjt-resume.jpg)
-
-# License
+## License
 
 Format is Apache Licensed. Data is owned by Harmanjeet Singh Nagi. Completely.
 
 ```
-Copyright 2020 Harmanjeet Singh Nagi
+Copyright 2020, 2021, 2022, 2023 Harmanjeet Singh Nagi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
