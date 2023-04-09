@@ -84,17 +84,19 @@
 // Braze integration, Oneview integration, OneTrust integration
 - Built an internal product for hyper-parameterized audience selection as an extension to bring intelligence to marketing platform. Product had a 3 month build phase and was adopted widely with 50+ MAU influencing all marketing campaigns (email, SMS and push notifications)
 
+#grid(
+    columns: (1fr, 1fr),
+    align(left)[
+        *Mu Sigma Inc.* \
+        *#emph("Decision Scientist, Apprentice Leader")*
+    ],
+    align(right)[
+        Bangalore, India \
+        May 2015 - Jun 2019
+    ]
+)
+- For leading US Airline, optimized recommender system to create a 30% significant lift in yearly revenue. Worked on reverse engineering performance of real-time recommendations (based on Oracle RTD) used for airlines check-in process
+- For leading UK retailer, built data and platform infrastucuture for retail pricing and inventory management.
+- For MAF, built backend and data pipelines for internal employee application serving 46K employees with 150+ MAUs
+- For MAF, built a configuration based framework for to run data integration and ETL tasks. Enabled 140+ data pipelines from 15 varied data sources to enable BI and analytics use cases
 
-// \resumeSubheading
-// {Mu Sigma Inc}{Bangalore, India}
-// {Decision Scientist, Apprentince Leader}{May 2015 - Jun 2019}
-// \resumeItemListStart
-// \resumeItem{Stabilizing Legacy ETL Framework}
-//     {Built configuration based framework for Informatica BDM to run legacy ETL tasks. Enabled 140+ data operations from 15 varied data sources to enable BI and analytics use cases}
-// \resumeItem{Infrastructure and backend for Employee Application}
-//     {Designed and build REST API backend (and AWS infrastructure) with sub-second response time for employee application powering 45K users}
-// \resumeItem{Infrastructure for Retail Pricing and Inventory Application}
-//     {Infrastructure setup and On-premise continuous integration and deployment approach for an application involving pricing and range simulations}
-// \resumeItem{Optimize Recommender for Airline Upselling}
-//     {30\% lift in yearly revenue by reverse engineering performance of real-time recommendations (based on Oracle RTD) used for airlines check-in process}
-// \resumeItemListEnd
