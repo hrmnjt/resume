@@ -79,10 +79,21 @@
 )
 - Started as an individual contributer to handle central data infrastructure for MAF i.e. integration with 30+ source/sink, data observability and managing databases, data-lake, reporting and event-bus infrastructure
 // batch data pipelines, data modelling and warehousing, ACL for postgres and vertica, data observability, golden customer record, infrastructure migration and optiomization, data operations
-- Built a team of 8 talented data engineers over 2 years to create Data Engineering and Operations team backing up the data operations required for flagship programs run by MAF
+- Scaled a team from 5 to 24 engineers over 2 years to create Data Engineering and Operations team backing up the data operations required for flagship programs run by MAF
 // Share program, BAU data operations for C4, Vox, Magic Planet, Ski, Shopping Malls
 // Braze integration, Oneview integration, OneTrust integration
-- Built an internal product for hyper-parameterized audience selection as an extension to bring intelligence to marketing platform. Product had a 3 month build phase and was adopted widely with 50+ MAU influencing all marketing campaigns (email, SMS and push notifications)
+- Built an internal product as an extension to bring intelligence to marketing platform. Post 3 month build phase with 9 engineers, it was adopted widely; technically it crunched customer base of 24M of 1000+ attributes each to craft a micro-segmented audience in less than 10s.
+
+// % Notes to explain this role
+
+// % - Joined MAF as a Senior Data Engineer and at the time MAF Holding was starting to centralize the data infrastructure they had. To understand this better, I should mention that MAF is a AED 18 Bn company operating in 18 countries. It has assets worth AED 63 Bn across Properties, Retail, Leisure & Entertainment and Lifestyle business. Because each OpCo was responsible for their own P&L, each business had different maturity with data and analytics. Holding's role (where I was hired) was to act like a chief architect and improve this maturity for all business.
+
+// % - Started with removing legacy infrastructure. Migrated from HDFS to S3; as nothing else from Hadoop stack was being used. Improved Vertica datawarehouse by fine-tuning netperf, ioperf, sysperf and data within: projections, aggregations. Migrated legacy ETL from Informatica to Airflow. Improved data observability i.e. monitoring and notifications for data. Maintained and built knowledge about Customer Master Data called GCR.
+
+// % - Created a framework with Airflow, Spark and Confluent to orchestrate data pipelines for ingestion, warehousing and analytics. Create loyalty data warehouse i.e. SHARE. Created a ACL for managing access to Vertica. Created integrations for MarTech (Braze Integration, Sendgrid integration, SAP c4c integration, etc.). Created a audience segmentation tool which can compete with Salesforce Marketing cloud but was much faster, cleaner and purpose built for MAF.
+
+// % - XSight had started as a business inside MAF Future Solution and we had conceptualized couple of tools - Dataverse and XConnect. 
+// % TODO: Explain XConnect.
 
 #grid(
     columns: (1fr, 1fr),
