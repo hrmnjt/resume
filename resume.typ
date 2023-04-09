@@ -42,9 +42,9 @@
     #set par(justify: false)
     *About* -  
     Engineering Manager with a knack for building and scaling highly productive 
-    teams and systems. I'm passionate about open source,  developer experience, 
+    teams and systems. I'm passionate about open source, developer experience, 
     systems engineering, reducing inequality in technology and making 
-    information accessible.
+    information accessible with data-driven explanations
 ]
 
 == Experience
@@ -54,25 +54,47 @@
     columns: (1fr, 1fr),
     align(left)[
         *Majid Al Futtaim* \
-        #emph("Engineering Manager - Data and Technology")
+        *#emph("Engineering Manager - Data and Technology")*
     ],
     align(right)[
         Dubai, UAE \
         Sep 2021 - Present
     ]
 )
-- #lorem(30)
-- #lorem(30)
-- #lorem(30)
+- Employ product and data knwoledge to design & implement 2 commercial data-intensive products with MRR USD 400K and monthly ARPA of USD 300K in marketing domain 
+- Leading a talented team of 35 engineers to self-organize, own and implement an active product roadmap. Ran a Spotify-inspired agile model to arrange team in tribe and squads - 2 squads building a solutions and 3rd squad implementing a commerical bought software
+- Become the bridge between BD/Sales and PDT team to translate requirements into solutions; created a culture of writing technical design docs (called ADR) and drive implementation within reasonable milestones
+- Balance product delivery with sustaining engineering to ensure code can be maintained over time and iterations. Invested `~`30% average bandwidth on reducing technical debt and improving scalability
+- Be a proponent of open source solutions and convince team to employ learning and practices on observability, orchestration, documentation and security to promote organization culture. Conducted 20+ architecture review and actively participated in `>`70 hiring discussions over last year
+
 
 #grid(
     columns: (1fr, 1fr),
     align(left)[
-        #emph("Lead Data Engineer")
+        *#emph("Lead Data Engineer")*
     ],
     align(right)[
         Jun 2019 - Sep 2021
     ]
 )
-- #lorem(30)
-- #lorem(30)
+- Started as an individual contributer to handle central data infrastructure for MAF i.e. integration with 30+ source/sink, data observability and managing databases, data-lake, reporting and event-bus infrastructure
+// batch data pipelines, data modelling and warehousing, ACL for postgres and vertica, data observability, golden customer record, infrastructure migration and optiomization, data operations
+- Built a team of 8 talented data engineers over 2 years to create Data Engineering and Operations team backing up the data operations required for flagship programs run by MAF
+// Share program, BAU data operations for C4, Vox, Magic Planet, Ski, Shopping Malls
+// Braze integration, Oneview integration, OneTrust integration
+- Built an internal product for hyper-parameterized audience selection as an extension to bring intelligence to marketing platform. Product had a 3 month build phase and was adopted widely with 50+ MAU influencing all marketing campaigns (email, SMS and push notifications)
+
+
+// \resumeSubheading
+// {Mu Sigma Inc}{Bangalore, India}
+// {Decision Scientist, Apprentince Leader}{May 2015 - Jun 2019}
+// \resumeItemListStart
+// \resumeItem{Stabilizing Legacy ETL Framework}
+//     {Built configuration based framework for Informatica BDM to run legacy ETL tasks. Enabled 140+ data operations from 15 varied data sources to enable BI and analytics use cases}
+// \resumeItem{Infrastructure and backend for Employee Application}
+//     {Designed and build REST API backend (and AWS infrastructure) with sub-second response time for employee application powering 45K users}
+// \resumeItem{Infrastructure for Retail Pricing and Inventory Application}
+//     {Infrastructure setup and On-premise continuous integration and deployment approach for an application involving pricing and range simulations}
+// \resumeItem{Optimize Recommender for Airline Upselling}
+//     {30\% lift in yearly revenue by reverse engineering performance of real-time recommendations (based on Oracle RTD) used for airlines check-in process}
+// \resumeItemListEnd
