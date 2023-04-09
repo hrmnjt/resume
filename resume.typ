@@ -100,3 +100,17 @@
 - For MAF, built backend and data pipelines for internal employee application serving 46K employees with 150+ MAUs
 - For MAF, built a configuration based framework for to run data integration and ETL tasks. Enabled 140+ data pipelines from 15 varied data sources to enable BI and analytics use cases
 
+== Education
+#subheadingline()
+
+#grid(
+    columns: (1fr, 1fr),
+    align(left)[
+        *PES Institute of Technology* \
+        #emph("Bachelor of Engineering - Electrical and Electronics")
+    ],
+    align(right)[
+        Bangalore, India \
+        Jun 2011 - Jun 2015
+    ]
+)
