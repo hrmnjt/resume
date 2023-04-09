@@ -1,24 +1,34 @@
 # Trying out typst
 
-## Installation
+## Installation and usage
 
-Get latest release from https://github.com/typst/typst/releases
+With Typst LSP
+- Install VSCode
+- Install plugin Typst LSP (https://marketplace.visualstudio.com/items?itemName=nvarner.typst-lsp)
+- Write and save your doc to get PDF output
 
+
+From Scratch
+
+```sh
+# 1 - Get latest release from https://github.com/typst/typst/releases
 curl -LJO https://github.com/typst/typst/releases/download/v23-03-21-2/typst-x86_64-apple-darwin.tar.gz
 
+# extract and get binary
 tar -xvzf typst-x86_64-apple-darwin.tar.gz
-
 mv typst-x86_64-apple-darwin/typst .
-
 rm -rf typst-x86_64-apple-darwin*
 
-## Usage
-
+# compilation and output
 typst resume.typ
+```
+
 
 ## License
 
 Format is Apache Licensed. Data is owned by Harmanjeet Singh Nagi. Completely.
+
+**TODO: add dual license details**
 
 ```
 Copyright 2020, 2021, 2022, 2023 Harmanjeet Singh Nagi
