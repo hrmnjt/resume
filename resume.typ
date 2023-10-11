@@ -62,7 +62,7 @@
         Sep 2021 - Present
     ]
 )
-- Employ product and data knwoledge to design & implement 2 commercial data-intensive products with MRR USD 400K and monthly ARPA of USD 300K in marketing domain 
+- Employ product and data knwoledge to design & implement 2 commercial data-intensive products in business intelligence and ad-marketing space
 - Leading a talented team of 24 engineers to self-organize, own and implement an active product roadmap. Ran a Spotify-inspired agile model to arrange team in tribe and squads - 2 squads building a solutions and 3rd squad implementing a commerical bought software
 - Become the bridge between BD/Sales and PDT team to translate requirements into solutions; created a culture of writing technical design docs (called ADR) and drive implementation within reasonable milestones
 - Balance product delivery with sustaining engineering to ensure code can be maintained over time and iterations. Invested `~`30% average bandwidth on reducing technical debt and improving scalability
