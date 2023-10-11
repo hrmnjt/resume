@@ -134,8 +134,6 @@
 - *Languages*: Proficient - Shell, Python, SQL; Familiar/Learning - Scala, JavaScript, Typescript, Golang
 - *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, Spark, Delta Lake, Confluent Kafka, Cube.dev, Trino, Airflow, Argo, Superset
 
-// Talking points
-
 // About me
 
 // My full name is Harmanjeet Singh Nagi but almost everyone calls me Harman. On web, you can find me with the handle hrmnjt i.e. my first name without any vowels. I'm originally from Jamshedpur (India) and I moved to Bangalore (India) for college and started my first job in Bangalore. I got a chance to move to Dubai in 2017 for work and post that I've been in Dubai. I consider myself a generalist and have had a diverse experience but my forte is data engineering. When I'm not working I'm reading scrolling twitter, hackernews, reading books; trying out new tech; going on long walks alone or with my wife and dog. 
