@@ -133,3 +133,39 @@
 - *Domains*: Product Engineering, Agile Product Managment, Data Engineering, Machine Learning, Business Intelligence and DevSecOps for Marketing, Digital Advertising, Retail, and Lifestyle business
 - *Languages*: Proficient - Shell, Python, SQL; Familiar/Learning - Scala, JavaScript, Typescript, Golang
 - *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, Spark, Delta Lake, Confluent Kafka, Cube.dev, Trino, Airflow, Argo, Superset
+
+// Talking points
+
+// About me
+
+// My full name is Harmanjeet Singh Nagi but almost everyone calls me Harman. On web, you can find me with the handle hrmnjt i.e. my first name without any vowels. I'm originally from Jamshedpur (India) and I moved to Bangalore (India) for college and started my first job in Bangalore. I got a chance to move to Dubai in 2017 for work and post that I've been in Dubai. I consider myself a generalist and have had a diverse experience but my forte is data engineering. When I'm not working I'm reading scrolling twitter, hackernews, reading books; trying out new tech; going on long walks alone or with my wife and dog. 
+
+// About work stuff
+
+// In college I was studying electrical and electronics where I was most fascinated about control systems. I started my career as an intern in a startup which was building a CRM solution of motor industries and it exposed me to world of data science and software engineering. I could draw parallels between control systems and how software systems are created but was more interested learning how to work with data.
+// After the internship and completeing college, I joined US based consultancy which specialized in data analytics and data science called Mu Sigma. I got a lot of exposure to work on big data systems with United Airlines, with Tesco and with Majid Al Futtaim. This gave me a chance to learn a lot of data engineering, devops culture, infrastructure, automation, etc.
+// I started working with Majid Al Futtaim as a consultant and later got an offer to join the team directly. Since almost 4 years I've been working with the core data engineering team in MAF. 2 years back I was promoted to Engineering Manager role and have been working on internal products primarily related to digital marketing and advertisement space.
+
+// Explain core data engineering
+
+// Started with upgrading legacy infrastructure. Migrated from HDFS to S3; as nothing else from Hadoop stack was being used. 
+// Improved Vertica performance - 2 ways, infra and data model 
+//     infra - fine-tuning netperf, ioperf, sysperf, changing node types, rebalancing, dba activities
+//     data model - projections, aggregations, incremental data load logic.
+// Migrated legacy ETL from Informatica to Airflow
+// Improved data observability i.e. monitoring and notifications for data. Maintained and built knowledge about Customer Master Data called GCR.
+
+// Explain DLA
+
+// Internal tool to create audiences and activate them. Audiences are basically customer segments who have satisfy a condition, such as age-range, gender, last_active_30days, did_trx_in_mall, avg_spend etc.
+// MAF active customer base = 15M across 16 countries (largest in UAE and KSA around 9M)
+// Around 200 attributes for each customer
+// 9 Business Units each with 3-4 marketing managers; no synergy between marketing efforts
+// consent, duplicate emails, incorrect targetting, no personalization
+
+// Explain Connect
+
+// It solves for many problems that MAF has - Semantic layer for business logic, repository for dashboards and reports, custom dashboards, audience creation activation, running market research (close loop), running ad campaigns (close loop)
+// Dashboard shows problem with data say sales is decreasing
+// Marketeer can run a market research i.e. survey, see results in a dashboard and understand product needs brand awareness
+// Marketeer can run an ad campaign for increasing brand awareness; see results in a dashboard for campaign effectiveness and understand change in sales.

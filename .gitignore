@@ -16,3 +16,6 @@
 
 #ignoring the extension
 typst
+
+#macos stuff
+.DS_Store
