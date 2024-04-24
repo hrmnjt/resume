@@ -23,29 +23,31 @@
     v(-5pt)
 }
 
+#let sectionseparator() = {
+    v(-5pt);
+    line(length: 100%);
+    v(-5pt)
+}
+
 // HEADER
 
 #grid(
     columns: (1fr, 1fr),
     align(left)[
-        = Harmanjeet Singh Nagi
+        = Harmanjeet Singh
         #link("https://www.hrmnjt.dev")
     ],
     align(right)[
-        Email: #link("mailto:hrmnjt@hrmn.in") \
-        Github: #link("https://github.com/hrmnjt")[hrmnjt] \
+        Email: #link("mailto:harman@hrmnjt.dev") \
+        Phone: #link("tel:+971503937005") \
+        Github: #link("https://github.com/hrmnjt")[hrmnjt] - 
         Linkedin: #link("https://www.linkedin.com/in/hrmnjt")[hrmnjt]
     ]
 )
 
 #align(center)[
     #set par(justify: false)
-    *About* -  
-    Engineering Manager with a knack for building and scaling highly productive 
-    teams and systems. I'm passionate about open source, developer experience
-    and systems engineering. Consistently promoted and selected among top 1%
-    performers, resulting in continious leadership development and role
-    expansion.
+    *About* - Engineering Manager with a knack for building and scaling robust systems and data products. I'm passionate about open source software, developer experience and systems engineering. Consistently promoted and selected among top 1% performers, resulting in continious development and role expansion.
 ]
 
 == Experience
@@ -55,18 +57,34 @@
     columns: (1fr, 1fr),
     align(left)[
         *Majid Al Futtaim* \
-        *#emph("Engineering Manager (Tribe Lead)")*
+        *#emph("Engineering Manager (Data)")*
     ],
     align(right)[
         Dubai, UAE \
-        Sep 2021 - Present
+        Sep 2023 - Present
     ]
 )
-- Employ product and data knwoledge to design & implement 2 commercial data-intensive products in business intelligence and ad-marketing space
-- Leading a talented team of 24 engineers to self-organize, own and implement an active product roadmap. Ran a Spotify-inspired agile model to arrange team in tribe and squads - 2 squads building a solutions and 3rd squad implementing a commerical bought software
-- Become the bridge between BD/Sales and PDT team to translate requirements into solutions; created a culture of writing technical design docs (called ADR) and drive implementation within reasonable milestones
-- Balance product delivery with sustaining engineering to ensure code can be maintained over time and iterations. Invested `~`30% average bandwidth on reducing technical debt and improving scalability
-- Be a proponent of open source solutions and convince team to employ learning and practices on observability, orchestration, documentation and security to promote organization culture. Conducted 20+ architecture review and actively participated in `>`70 hiring discussions over last year
+- Created an identity graph for MAFs diverse 65M customer record collected across 8 varied businesses
+- Conceptualized and built classification of customers based their interactions with MAF businesses allowing marketing and customer experience teams win their "hearts, minds and wallets"
+- Got buy-in from leadership to start a dedicated team which aims to perfect quality, reliability and observability across data, data products and data infrastructure
+- *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
+
+#grid(
+    columns: (1fr, 1fr),
+    align(left)[
+        *#emph("Engineering Manager (Product)")*
+    ],
+    align(right)[
+        Sep 2021 - Sep 2023
+    ]
+)
+- Led build for central business intelligence platform (internal name: Connect) for MAF which provides insights across market trends, competitive benchmarking and internal business performance
+- Led build and integration for internal MarTech and AdTech automation product aiming to improve, consolidate and standardize marketing and advertising workflow across MAF's retail ad network
+- *Tech Stack*: Spark, Cube.dev, S3, Vertica, Postgres, Airflow, NodeJS, React, ArgoCD, Kubernetes, AWS
+// - Leading a talented team of 10 engineers to self-organize, own and implement an active product roadmap. Ran a Spotify-inspired agile model to arrange team in tribe and squads - 2 squads building a solutions and 3rd squad implementing a commerical bought software
+// - Become the bridge between BD/Sales and PDT team to translate requirements into solutions; created a culture of writing technical design docs (called ADRs) and drive implementation within reasonable milestones
+// - Balance product delivery with sustaining engineering to ensure code can be maintained over time and iterations. Invested `~`30% average bandwidth on reducing technical debt and improving scalability
+// - Be a proponent of open source solutions and convince team to employ learning and practices on observability, orchestration, documentation and security to promote organization culture. Conducted 20+ architecture review and actively participated in `>`70 hiring discussions over last year
 
 
 #grid(
@@ -78,13 +96,14 @@
         Jun 2019 - Sep 2021
     ]
 )
-- Started as an individual contributer to handle central data infrastructure for MAF i.e. integration with 30+ source/sink, data observability and managing databases, data-lake, reporting and event-bus infrastructure
+- Started as an lead engineer to handle central data infrastructure for MAF i.e. integration with 30+ source/sink, data observability and managing databases, data-lake, reporting and event-bus infrastructure
+// only MAF engineer with 4 external vendor DE
 // batch data pipelines, data modelling and warehousing, ACL for postgres and vertica, data observability, golden customer record, infrastructure migration and optiomization, data operations
-- Scaled a team from 5 to 24 engineers over 2 years to create Data Engineering and Operations team backing up the data operations required for flagship programs run by MAF
+- Led and scaled a team from 5 to 18 engineers over 2 years to create Data Engineering and Operations team backing up the data management and operations required for flagship programs for loyalty, marketing and operations.
 // Share program, BAU data operations for C4, Vox, Magic Planet, Ski, Shopping Malls
-// Braze integration, Oneview integration, OneTrust integration
-- Built an internal product as an extension to bring intelligence to marketing platform. Post 3 month build phase with 9 engineers, it was adopted widely; technically it crunched customer base of 24M of 1000+ attributes each to craft a micro-segmented audience in less than 10s.
-
+// Work with MarTech tools - Braze integration, Oneview integration, OneTrust integration
+- Led build for an internal product for marketing platform which would crunch customer base of 30M with 600 odd attributes to craft a campaign specific audience with sub-second latency.
+- *Tech Stack*: Spark, S3, Vertica, Postgres, HDFS, Airflow, Jenkins, Docker Swarm, AWS
 // % Notes to explain this role
 
 // % - Joined MAF as a Senior Data Engineer and at the time MAF Holding was starting to centralize the data infrastructure they had. To understand this better, I should mention that MAF is a AED 18 Bn company operating in 18 countries. It has assets worth AED 63 Bn across Properties, Retail, Leisure & Entertainment and Lifestyle business. Because each OpCo was responsible for their own P&L, each business had different maturity with data and analytics. Holding's role (where I was hired) was to act like a chief architect and improve this maturity for all business.
@@ -95,6 +114,8 @@
 
 // % - XSight had started as a business inside MAF Future Solution and we had conceptualized couple of tools - Dataverse and XConnect. 
 // % TODO: Explain XConnect.
+
+#sectionseparator()
 
 #grid(
     columns: (1fr, 1fr),
@@ -130,9 +151,10 @@
 == Skills
 #subheadingline()
 
-- *Domains*: Product Engineering, Agile Product Managment, Data Engineering, Machine Learning, Business Intelligence and DevSecOps for Marketing, Digital Advertising, Retail, and Lifestyle business
-- *Languages*: Proficient - Shell, Python, SQL; Familiar/Learning - Scala, JavaScript, Typescript, Golang
-- *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, Spark, Delta Lake, Confluent Kafka, Cube.dev, Trino, Airflow, Argo, Superset
+- *Domains*: Product Engineering, Data Engineering, Machine Learning, Business Intelligence, and DevSecOps
+- *Languages*: Proficient - Python, Shell, SQL; Familiar - Scala, Golang, JavaScript
+- *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
+
 
 // About me
 
