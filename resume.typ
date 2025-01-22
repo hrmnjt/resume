@@ -57,14 +57,14 @@
     columns: (1fr, 1fr),
     align(left)[
         *Majid Al Futtaim* \
-        *#emph("Engineering Manager (Data)")*
+        *#emph("Senior Engineering Manager")*
     ],
     align(right)[
         Dubai, UAE \
         Sep 2023 - Present
     ]
 )
-- Created an identity graph for MAFs diverse 65M customer record collected across 8 varied businesses
+- Created an identity graph for MAFs diverse 70M customer record collected across 14 varied businesses
 - Conceptualized and built classification of customers based their interactions with MAF businesses allowing marketing and customer experience teams win their "hearts, minds and wallets"
 - Got buy-in from leadership to start a dedicated team which aims to perfect quality, reliability and observability across data, data products and data infrastructure
 - *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
@@ -72,7 +72,7 @@
 #grid(
     columns: (1fr, 1fr),
     align(left)[
-        *#emph("Engineering Manager (Product)")*
+        *#emph("Engineering Manager")*
     ],
     align(right)[
         Sep 2021 - Sep 2023
