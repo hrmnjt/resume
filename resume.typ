@@ -57,22 +57,22 @@
     columns: (1fr, 1fr),
     align(left)[
         *Majid Al Futtaim* \
-        *#emph("Engineering Manager (Data)")*
+        *#emph("Senior Engineering Manager")*
     ],
     align(right)[
         Dubai, UAE \
         Sep 2023 - Present
     ]
 )
-- Created an identity graph for MAFs diverse 65M customer record collected across 8 varied businesses
+- Created an identity graph for MAFs diverse 75M customer record collected across 14 varied businesses
 - Conceptualized and built classification of customers based their interactions with MAF businesses allowing marketing and customer experience teams win their "hearts, minds and wallets"
-- Got buy-in from leadership to start a dedicated team which aims to perfect quality, reliability and observability across data, data products and data infrastructure
+- Lead Core DE team which aims to perfect quality, reliability and observability across data, data products and data infrastructure
 - *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
 
 #grid(
     columns: (1fr, 1fr),
     align(left)[
-        *#emph("Engineering Manager (Product)")*
+        *#emph("Engineering Manager")*
     ],
     align(right)[
         Sep 2021 - Sep 2023
@@ -189,3 +189,36 @@
 // Dashboard shows problem with data say sales is decreasing
 // Marketeer can run a market research i.e. survey, see results in a dashboard and understand product needs brand awareness
 // Marketeer can run an ad campaign for increasing brand awareness; see results in a dashboard for campaign effectiveness and understand change in sales.
+
+// Here are some important areas to explore during your discussions about the Head of Data Engineering role:
+
+// Team & Organization:
+// - Current size and structure of the data engineering team
+// - Growth plans for the team and expected hiring responsibilities
+// - Where data engineering sits in the org structure and key stakeholders you'd work with
+// - Level of autonomy in technical and strategic decisions
+
+// Technical Environment:
+// - Current data infrastructure and tech stack
+// - Major pain points or technical debt that needs addressing
+// - Data volumes and complexity you'll be dealing with
+// - Plans for modernization or migration projects
+// - How they handle data quality, governance, and security
+
+// Strategic Direction:
+// - Key business objectives the data engineering team supports
+// - Major initiatives planned for the next 12-18 months
+// - How success in this role will be measured
+// - Budget for tools, infrastructure, and team development
+
+// Culture & Operations:
+// - On-call expectations and incident management process
+// - Team's approach to documentation and knowledge sharing
+// - Development practices (code review, testing, deployment)
+// - Remote/hybrid work policies and team distribution if relevant
+
+// Career & Growth:
+// - Professional development opportunities
+// - Decision-making authority in technical architecture
+// - Expectations for the first 90 days
+// - Previous head's tenure and reason for departure if applicable
