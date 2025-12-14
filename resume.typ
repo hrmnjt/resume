@@ -40,18 +40,35 @@
     align(right)[
         Email: #link("mailto:harman@hrmnjt.dev") \
         Phone: #link("tel:+971503937005") \
-        Github: #link("https://github.com/hrmnjt")[hrmnjt] - 
+        Github: #link("https://github.com/hrmnjt")[hrmnjt] |
         Linkedin: #link("https://www.linkedin.com/in/hrmnjt")[hrmnjt]
     ]
 )
 
 #align(center)[
     #set par(justify: false)
-    *About* - Engineering Manager with a knack for building and scaling robust systems and data products. I'm passionate about open source software, developer experience and systems engineering. Consistently promoted and selected among top 1% performers, resulting in continious development and role expansion.
+    *About* - Engineer (prev, Engineering Manager) with a knack for building and scaling robust systems and data products. I'm passionate about open source software, developer experience and systems engineering. Consistently promoted and selected among top 1% performers across roles.
 ]
 
 == Experience
 #subheadingline()
+
+#grid(
+    columns: (1fr, 1fr),
+    align(left)[
+        *Department of Health* \
+        *#emph("Senior Staff Data Engineer")*
+    ],
+    align(right)[
+        Abu Dhabi, UAE \
+        Aug 2025 - Present
+    ]
+)
+- Focusing on modernizing and simplifying the data stack with focus on performance and quality
+- Leading data engineering practice for critical initiatives owned by Digital Health for DOH-AD 
+- *Tech Stack*: Spark, DQX, Databricks, Delta Lake, ADLS, MSSQL, Oracle, FHIR, Kubernetes, Azure
+
+#sectionseparator()
 
 #grid(
     columns: (1fr, 1fr),
@@ -61,7 +78,7 @@
     ],
     align(right)[
         Dubai, UAE \
-        Sep 2023 - Present
+        Sep 2023 - Aug 2025
     ]
 )
 - Created an identity graph for MAFs diverse 75M customer record collected across 14 varied businesses
