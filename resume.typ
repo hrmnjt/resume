@@ -24,23 +24,21 @@
 }
 
 #let sectionseparator() = {
-    v(-5pt);
-    line(length: 100%);
-    v(-5pt)
+    line(length: 100%, stroke: (thickness: 0.3pt))
 }
 
 // HEADER
 
 #grid(
-    columns: (1fr, 1fr),
+    columns: (1fr, 1.5fr),
     align(left)[
         = Harmanjeet Singh
         #link("https://www.hrmnjt.dev")
     ],
     align(right)[
         Email: #link("mailto:harman@hrmnjt.dev") \
-        Phone: #link("tel:+971503937005") \
-        Github: #link("https://github.com/hrmnjt")[hrmnjt] |
+        Phone: #link("tel:+971503937005") 
+        Github: #link("https://github.com/hrmnjt")[hrmnjt] 
         Linkedin: #link("https://www.linkedin.com/in/hrmnjt")[hrmnjt]
     ]
 )
@@ -81,10 +79,9 @@
         Sep 2023 - Aug 2025
     ]
 )
-- Created an identity graph for MAFs diverse 75M customer record collected across 14 varied businesses
-- Conceptualized and built classification of customers based their interactions with MAF businesses allowing marketing and customer experience teams win their "hearts, minds and wallets"
-- Lead Core DE team which aims to perfect quality, reliability and observability across data, data products and data infrastructure
-- *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
+- Rebuilt identity graph for MAFs diverse 75M customer record collected across 14 varied businesses combined with a feature store to serve martech, fintech and customer obsessed products
+- Lead core data engineering practice with goal of perfecting quality, reliability and observability across data, data products and data infrastructure
+// - *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
 
 #grid(
     columns: (1fr, 1fr),
@@ -95,9 +92,9 @@
         Sep 2021 - Sep 2023
     ]
 )
-- Led build for central business intelligence platform (internal name: Connect) for MAF which provides insights across market trends, competitive benchmarking and internal business performance
+- Led a team of 10 to build for central business intelligence platform (internal name: Connect) for MAF focusing on internal tooling, market trends, competitive benchmarking and business performance
 - Led build and integration for internal MarTech and AdTech automation product aiming to improve, consolidate and standardize marketing and advertising workflow across MAF's retail ad network
-- *Tech Stack*: Spark, Cube.dev, S3, Vertica, Postgres, Airflow, NodeJS, React, ArgoCD, Kubernetes, AWS
+// - *Tech Stack*: Spark, Cube.dev, S3, Vertica, Postgres, Airflow, NodeJS, React, ArgoCD, Kubernetes, AWS
 // - Leading a talented team of 10 engineers to self-organize, own and implement an active product roadmap. Ran a Spotify-inspired agile model to arrange team in tribe and squads - 2 squads building a solutions and 3rd squad implementing a commerical bought software
 // - Become the bridge between BD/Sales and PDT team to translate requirements into solutions; created a culture of writing technical design docs (called ADRs) and drive implementation within reasonable milestones
 // - Balance product delivery with sustaining engineering to ensure code can be maintained over time and iterations. Invested `~`30% average bandwidth on reducing technical debt and improving scalability
@@ -116,11 +113,13 @@
 - Started as an lead engineer to handle central data infrastructure for MAF i.e. integration with 30+ source/sink, data observability and managing databases, data-lake, reporting and event-bus infrastructure
 // only MAF engineer with 4 external vendor DE
 // batch data pipelines, data modelling and warehousing, ACL for postgres and vertica, data observability, golden customer record, infrastructure migration and optiomization, data operations
-- Led and scaled a team from 5 to 18 engineers over 2 years to create Data Engineering and Operations team backing up the data management and operations required for flagship programs for loyalty, marketing and operations.
+- Led and scaled a team from 5 to 11 engineers over 2 years to create Data Engineering and Operations team backing up the data management and operations required for flagship programs for loyalty, marketing and operations
 // Share program, BAU data operations for C4, Vox, Magic Planet, Ski, Shopping Malls
 // Work with MarTech tools - Braze integration, Oneview integration, OneTrust integration
-- Led build for an internal product for marketing platform which would crunch customer base of 30M with 600 odd attributes to craft a campaign specific audience with sub-second latency.
-- *Tech Stack*: Spark, S3, Vertica, Postgres, HDFS, Airflow, Jenkins, Docker Swarm, AWS
+- Led build for an internal marketing platform crunching 35M customer base with 1200+ attributes to craft a campaign specific audience with sub-second latency
+// - *Tech Stack*: Spark, S3, Vertica, Postgres, HDFS, Airflow, Jenkins, Docker Swarm, AWS
+
+*Tech Stack*: Spark, Splink, Cube.dev, S3, Vertica, DuckDB, Postgres, HDFS, Airflow, Kafka, Datahub, Jenkins, NodeJS, React, Docker Swarm, Argo Workflows, ArgoCD, Kubernetes, AWS
 // % Notes to explain this role
 
 // % - Joined MAF as a Senior Data Engineer and at the time MAF Holding was starting to centralize the data infrastructure they had. To understand this better, I should mention that MAF is a AED 18 Bn company operating in 18 countries. It has assets worth AED 63 Bn across Properties, Retail, Leisure & Entertainment and Lifestyle business. Because each OpCo was responsible for their own P&L, each business had different maturity with data and analytics. Holding's role (where I was hired) was to act like a chief architect and improve this maturity for all business.
@@ -145,10 +144,10 @@
         May 2015 - Jun 2019
     ]
 )
-- For leading US Airline, optimized recommender system to create a 30% significant lift in yearly revenue. Worked on reverse engineering performance of real-time recommendations (based on Oracle RTD) used for airlines check-in process
-- For leading UK retailer, built data and platform infrastucuture for retail pricing and inventory management.
-- For MAF, built backend and data pipelines for internal employee application serving 46K employees with 150+ MAUs
-- For MAF, built a configuration based framework for to run data integration and ETL tasks. Enabled 140+ data pipelines from 15 varied data sources to enable BI and analytics use cases
+- (United Airlines) optimized recommender system (by reverse engineering Oracle RTD) to create a 30% significant lift in yearly revenue
+- (Tesco) Built data and platform infrastucuture for retail pricing and inventory management
+- (MAF) Built backend and data infra for internal employee application serving 46K employees with 150+ MAUs
+- (MAF) Built a configuration based ETL framework on on-prem Hadoop infra (140 pipelines, 10TB volume, 15 data sources)
 
 == Education
 #subheadingline()
@@ -165,12 +164,12 @@
     ]
 )
 
-== Skills
-#subheadingline()
+// == Skills
+// #subheadingline()
 
-- *Domains*: Product Engineering, Data Engineering, Machine Learning, Business Intelligence, and DevSecOps
-- *Languages*: Proficient - Python, Shell, SQL; Familiar - Scala, Golang, JavaScript
-- *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
+// - *Domains*: Product Engineering, Data Engineering, Machine Learning, Business Intelligence, and DevSecOps
+// - *Languages*: Proficient - Python, Shell, SQL; Familiar - Scala, Golang, JavaScript
+// - *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
 
 
 // About me
