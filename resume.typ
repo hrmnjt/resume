@@ -141,7 +141,7 @@
     ],
     align(right)[
         Bangalore, India \
-        May 2015 - Jun 2019
+        Jun 2015 - Apr 2019
     ]
 )
 - (United Airlines) optimized recommender system (by reverse engineering Oracle RTD) to create a 30% significant lift in yearly revenue
