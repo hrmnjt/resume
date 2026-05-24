@@ -44,7 +44,7 @@
 
 #align(center)[
     #set par(justify: false)
-    *About* - Engineer with management experience, specializing in building and scaling robust systems and data products. Passionate about open source software, developer experience and systems engineering. Consistently promoted and recognized as a top performer across roles.
+    *About* - Engineer with management experience, specializing in building and scaling robust data infrastructure and data products. Passionate about open source software, developer experience and data intensive system engineering. Consistently promoted and recognized as a top performer (top 1%) across roles.
 ]
 
 == Experience
@@ -62,7 +62,7 @@
     ]
 )
 - Leading data engineering and platform team to maintain scalable and reliable infrastructure delivering timely, accurate, and consistent data to maximize Abu Dhabi population health outcomes
-- *Tech Stack*: Spark, DQX, Databricks, Delta Lake, ADLS, MSSQL, Oracle, FHIR, Kubernetes, Azure
+- *Tech Stack*: Spark, Databricks (DQX, SDP), Delta Lake, ADLS, MSSQL, Oracle, FHIR, Kubernetes, Azure
 
 #sectionseparator()
 
