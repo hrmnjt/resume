@@ -62,8 +62,7 @@
         Aug 2025 - Present
     ]
 )
-- Focusing on modernizing and simplifying the data stack with focus on performance and quality
-- Leading data engineering practice for critical initiatives owned by Digital Health for DOH-AD 
+- Leading data engineering and platform team to maintain scalable and reliable infrastructure with timely, accurate, complete, and consistent data to maximize Abu Dhabi population health
 - *Tech Stack*: Spark, DQX, Databricks, Delta Lake, ADLS, MSSQL, Oracle, FHIR, Kubernetes, Azure
 
 #sectionseparator()
