@@ -153,3 +153,125 @@
 - *Languages*: Python, Shell, SQL (proficient) --- Scala, Go, JavaScript, TypeScript, Rust
 - *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Delta Lake, Iceberg, Databricks, S3, ADLS, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
 
+
+// ============================================================
+// INTERVIEW TALKING POINTS & NOTES (not rendered in PDF)
+// ============================================================
+
+// --- About Me ---
+// My full name is Harmanjeet Singh Nagi but almost everyone calls me Harman. On web,
+// you can find me with the handle hrmnjt i.e. my first name without any vowels. I'm
+// originally from Jamshedpur (India) and I moved to Bangalore (India) for college and
+// started my first job in Bangalore. I got a chance to move to Dubai in 2017 for work
+// and post that I've been in Dubai. I consider myself a generalist and have had a
+// diverse experience but my forte is data engineering. When I'm not working I'm
+// scrolling twitter, hackernews, reading books; trying out new tech; going on long
+// walks alone or with my wife and dog.
+
+// --- Career Journey ---
+// In college I was studying electrical and electronics where I was most fascinated
+// about control systems. I started my career as an intern in a startup which was
+// building a CRM solution for motor industries and it exposed me to the world of data
+// science and software engineering. Could draw parallels between control systems and
+// how software systems are created but was more interested in learning how to work
+// with data.
+// After the internship and completing college, I joined US based consultancy which
+// specialized in data analytics and data science called Mu Sigma. I got a lot of
+// exposure to work on big data systems with United Airlines, Tesco and Majid Al
+// Futtaim. This gave me a chance to learn a lot of data engineering, devops culture,
+// infrastructure, automation, etc.
+// I started working with Majid Al Futtaim as a consultant and later got an offer to
+// join the team directly.
+
+// --- MAF: Core Data Engineering ---
+// Joined MAF as a Senior Data Engineer when MAF Holding was starting to centralize
+// the data infrastructure. MAF is a AED 18 Bn company operating in 18 countries with
+// assets worth AED 63 Bn across Properties, Retail, Leisure & Entertainment and
+// Lifestyle. Because each OpCo was responsible for their own P&L, each business had
+// different maturity with data and analytics. Holding's role was to act like a chief
+// architect and improve this maturity for all businesses.
+//
+// Started with removing legacy infrastructure:
+// - Migrated from HDFS to S3 (nothing else from Hadoop stack was being used)
+// - Improved Vertica data warehouse: fine-tuning netperf, ioperf, sysperf, projections,
+//   aggregations, incremental data load logic
+// - Migrated legacy ETL from Informatica to Airflow
+// - Improved data observability: monitoring and notifications
+// - Maintained and built knowledge about Customer Master Data (GCR)
+//
+// Created a framework with Airflow, Spark and Confluent to orchestrate data pipelines
+// for ingestion, warehousing and analytics. Created loyalty data warehouse (SHARE),
+// ACL for managing Vertica access, MarTech integrations (Braze, Sendgrid, SAP C4C),
+// and an audience segmentation tool purpose-built for MAF.
+//
+// Only MAF engineer working alongside 4 external vendor DEs.
+// Batch data pipelines, data modelling and warehousing, ACL for postgres and vertica,
+// data observability, golden customer record, infrastructure migration and optimization,
+// data operations.
+// Share program, BAU data operations for C4, Vox, Magic Planet, Ski, Shopping Malls.
+// Work with MarTech tools - Braze integration, Oneview integration, OneTrust integration.
+
+// --- MAF: Engineering Manager ---
+// Led a talented team of 10 engineers self-organizing via Spotify-inspired tribe/squad
+// model - 2 squads building solutions, 3rd squad implementing commercially bought software.
+// Bridge between BD/Sales and PDT team; created culture of writing ADRs (technical
+// design docs) and drove implementation within reasonable milestones.
+// Balanced product delivery with sustaining engineering: invested ~30% bandwidth on
+// reducing technical debt and improving scalability.
+// Proponent of open source; convinced team to adopt practices on observability,
+// orchestration, documentation and security. Conducted 20+ architecture reviews and
+// actively participated in >70 hiring discussions.
+
+// --- MAF: DLA (Audience Segmentation Tool) ---
+// Internal tool to create audiences and activate them. Audiences are customer segments
+// satisfying a condition: age-range, gender, last_active_30days, did_trx_in_mall, avg_spend.
+// MAF active customer base: 15M across 16 countries (largest in UAE and KSA around 9M).
+// ~200 attributes per customer. 9 business units each with 3-4 marketing managers with
+// no synergy between marketing efforts. Problems: consent, duplicate emails, incorrect
+// targeting, no personalization.
+
+// --- MAF: Connect (BI Platform) ---
+// Solves many problems at MAF: semantic layer for business logic, repository for
+// dashboards and reports, custom dashboards, audience creation/activation, running
+// market research (close loop), running ad campaigns (close loop).
+// Dashboard shows data problem (e.g. sales decreasing) → marketer runs market research
+// (survey) → sees results in dashboard → understands product needs/brand awareness →
+// runs ad campaign for awareness → measures campaign effectiveness → understands
+// change in sales.
+
+// --- XSight ---
+// XSight started as a business inside MAF Future Solution. Conceptualized tools:
+// Dataverse and XConnect.
+
+// --- Head of Data Engineering: Interview Discussion Areas ---
+// Team & Organization:
+// - Current size and structure of the data engineering team
+// - Growth plans for the team and expected hiring responsibilities
+// - Where data engineering sits in the org structure and key stakeholders
+// - Level of autonomy in technical and strategic decisions
+//
+// Technical Environment:
+// - Current data infrastructure and tech stack
+// - Major pain points or technical debt that needs addressing
+// - Data volumes and complexity you'll be dealing with
+// - Plans for modernization or migration projects
+// - How they handle data quality, governance, and security
+//
+// Strategic Direction:
+// - Key business objectives the data engineering team supports
+// - Major initiatives planned for the next 12-18 months
+// - How success in this role will be measured
+// - Budget for tools, infrastructure, and team development
+//
+// Culture & Operations:
+// - On-call expectations and incident management process
+// - Team's approach to documentation and knowledge sharing
+// - Development practices (code review, testing, deployment)
+// - Remote/hybrid work policies and team distribution
+//
+// Career & Growth:
+// - Professional development opportunities
+// - Decision-making authority in technical architecture
+// - Expectations for the first 90 days
+// - Previous head's tenure and reason for departure
+
