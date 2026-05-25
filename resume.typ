@@ -6,24 +6,29 @@
 
 // GLOBAL STYLING
 
-// using A4 page size and setting a 1.5cm square margin 
+// using A4 page size and setting a 1.5cm square margin
 #set page(
     paper: "a4",
     margin: (x: 1.5cm, y: 1.5cm),
 )
+
+#set par(leading: 0.65em)
+#set list(body-indent: 1em, spacing: 0.3em)
 
 // links styled without underline for cleaner look
 #show link: set text(fill: blue.darken(40%))
 
 // macro to create an underline below subheadings
 #let subheadingline() = {
-    v(-5pt);
+    v(-4pt);
     line(length: 100%);
-    v(-5pt)
+    v(2pt)
 }
 
 #let sectionseparator() = {
-    line(length: 100%, stroke: (thickness: 0.3pt))
+    v(4pt);
+    line(length: 100%, stroke: (thickness: 0.3pt));
+    v(4pt)
 }
 
 // HEADER
@@ -32,19 +37,17 @@
     columns: (1fr, 1.5fr),
     align(left)[
         = Harmanjeet Singh Nagi
-        #link("https://www.hrmnjt.dev")
     ],
     align(right)[
-        Email: #link("mailto:harman@hrmnjt.dev") \
-        Phone: #link("tel:+971503937005") \
-        Github: #link("https://github.com/hrmnjt")[hrmnjt] \
-        Linkedin: #link("https://www.linkedin.com/in/hrmnjt")[hrmnjt]
+        #link("mailto:harman@hrmnjt.dev")[harman\@hrmnjt.dev] \
+        #link("tel:+971503937005")[+971 50 393 7005] \
+        #link("https://www.hrmnjt.dev")[hrmnjt.dev] · #link("https://github.com/hrmnjt")[github: hrmnjt] · #link("https://www.linkedin.com/in/hrmnjt")[linkedin: hrmnjt]
     ]
 )
 
 #align(center)[
     #set par(justify: false)
-    *About* - Engineer with management experience, specializing in building and scaling robust data infrastructure and data products. Passionate about open source software, developer experience and data intensive system engineering. Consistently promoted and recognized as a top performer (top 1%) across roles.
+    Engineer with management experience, specializing in modernizing legacy data infrastructure and building developer-friendly systems. Track record of replacing fragile stacks with observable, reliable platforms — and building data-intensive products. Top 1% performer across roles.
 ]
 
 == Experience
@@ -53,7 +56,7 @@
 #grid(
     columns: (1fr, 1fr),
     align(left)[
-        *Department of Health* \
+        *Department of Health, Abu Dhabi (Public Sector)* \
         *#emph("Senior Staff Data Engineer")*
     ],
     align(right)[
@@ -77,7 +80,7 @@
         Sep 2023 - Aug 2025
     ]
 )
-- Rebuilt identity graph linking 75M customer records across 14 businesses, paired with a feature store to serve martech, fintech, and customer-obsessed products
+- Rebuilt identity graph linking 75M customer records across 14 businesses, paired with a feature store to serve martech, fintech, and customer-facing products
 - Led core data engineering practice, improving data quality, pipeline reliability, and observability across all data products and infrastructure
 - *Tech Stack*: Spark, Splink, S3, Vertica, DuckDB, Airflow, Datahub, Kafka, Argo Workflows, Kubernetes, AWS
 
@@ -91,7 +94,7 @@
     ]
 )
 - Led a team of 10 to build a central business intelligence platform (Connect) for MAF, enabling internal tooling, market trends, competitive benchmarking, and business performance tracking
-- Led build and integration of an internal MarTech and AdTech automation product to improve, consolidate, and standardize marketing and advertising workflows across MAF's retail ad network
+- Built internal MarTech/AdTech automation product to consolidate and standardize marketing workflows across MAF's retail ad network
 - *Tech Stack*: Spark, Cube.dev, S3, Vertica, Postgres, Airflow, NodeJS, React, ArgoCD, Kubernetes, AWS
 
 #grid(
@@ -121,7 +124,7 @@
         Jun 2015 - Apr 2019
     ]
 )
-- (United Airlines) Optimized recommender system (by reverse engineering Oracle RTD), delivering a 30% lift in yearly revenue
+- (United Airlines) Optimized recommender (grayboxing Oracle RTD), delivering a 30% lift in yearly revenue
 - (Tesco) Built data and platform infrastructure for retail pricing and inventory management
 - (MAF) Built backend and data infra for an internal employee application serving 46K employees
 - (MAF) Built a configuration-based ETL framework on on-prem Hadoop infra (140 pipelines, 10TB daily volume, 15 data sources)
@@ -141,10 +144,12 @@
     ]
 )
 
+#pagebreak()
+
 == Skills
 #subheadingline()
 
-- *Domains*: Product Engineering, Data Engineering, Machine Learning, Business Intelligence, DevSecOps
-- *Languages*: Proficient - Python, Shell, SQL; Familiar - Scala, Golang, JavaScript
-- *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
+- *Domains*: Product Engineering, Data Engineering, Machine Learning, Business Intelligence, Platform & Infrastructure
+- *Languages*: Python, Shell, SQL (proficient) --- Scala, Go, JavaScript, TypeScript, Rust
+- *Data Stack*: Postgres, SQLite, Vertica, ElasticSearch, DuckDB, Spark, Delta Lake, Iceberg, Databricks, S3, ADLS, Confluent Kafka, Cube.dev, Trino, Airflow, Superset
 
